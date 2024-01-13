@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0EBF8;
+}
+/* Form */
+.heading{
+    padding: 10px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+.form{
+    width: 35%;
+    margin: auto;
+}
+input[type="radio"]{
+   margin-bottom: 20px;
+}
+h4{
+margin-bottom: -10px;
+}
+h2{
+margin-bottom: 0px;
+}
+
+.im{
+    color: red;
+}
+/* Bio */
+.bio{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.bio>input{
+    height:30px;
+    border:none;
+    outline: none;
+    border-bottom:1px solid black;
+}
+.bio>input:focus{
+    border-bottom:1px solid red;
+    transition: all 0.5s linear;
+}
+/* interest */
+.interest{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* experience */
+.ex{
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+/* cv */
+.cv{
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 5px; 
+}
+/* Buttons */
+.buttons{
+    margin-top:10px;
+    display: flex;
+    justify-content:space-between ;
+}
+.submit{
+    background-color: #673ab7;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+}
+.reset{
+    border: none;
+    background:none;
+    color: #673ab7;
+}
+
+/* Responsive */
+@media (max-width: 768px){
+    .form{
+    width: auto;
+    padding: 30px;
+    }
+}

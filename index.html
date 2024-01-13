@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Registration form for Internship</h1>
+        <div class="registration">
+            <form action="" class="form">
+                <div class="bio">
+                    <label for="fname">First Name:<span class="im">*</span></label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter your first name" required>
+                    <br>
+                    <label for="lname">Last Name:<span class="im">*</span></label>
+                    <input type="text" name="lname" id="lname" placeholder="Enter your last name" required>
+                    <br>
+                    <label for="email">Email:<span class="im">*</span></label>
+                    <input type="email" name="email" value="" id="email" placeholder="Enter your email" required>
+                    <br>
+                    <label for="number">Whatsapp Number:<span class="im">*</span></label>
+                    <input type="number" name="number" id="number" placeholder="Enter your number"  required>
+                </div>
+                <br> <br>
+                <div class="interest">
+                    <h4 for="interest">Interest (Applying for)<span class="im">*</span></h4>
+                    <br>
+                    <input type="radio" name="interest"> Full-Stack Web Development
+                    <br>
+                    <input type="radio" name="interest"> Fronted Development
+                    <br>
+                    <input type="radio" name="interest"> Backend Development
+                    <br>
+                    <input type="radio" name="interest"> Android Development
+                    <br>
+                    <input type="radio" name="interest"> Python Development
+                    <br>
+                    <input type="radio" name="interest"> Flutter Development
+                    <br>
+                    <input type="radio" name="interest"> C# .Net Development
+                    <br>
+                    <input type="radio" name="interest"> Django(Python)
+                    <br>
+                    <input type="radio" name="interest"> Graphic Design
+                    <br>
+                    <input type="radio" name="interest"> Java Desktop Development
+                    <br>
+                    <input type="radio" name="interest"> Machine Learning
+                    <br>
+                    <input type="radio" name="interest"> Wordpress 
+                    <br>
+                    <input type="radio" name="interest"> C++
+                    <input type="radio" name="interest"> Figma Design
+                    <br>
+                    <input type="radio" name="interest"> Data Analyst
+                    <br>
+                    <input type="radio" name="interest"> Artificial Intelligence
+                    <br>
+                    <input type="radio" name="interest"> Cyber Security
+                    <br>
+                    <input type="radio" name="interest"> React.js intern
+                </div>
+
+                <br> <br>
+               <div class="ex">
+                <p>Experience level in the field  you are applying for internship
+                    <span class="im">*</span></p>
+                <input type="radio" name="experience"> Beginner
+                    <br>
+                <input type="radio" name="experience"> Intermediate
+                    <br>
+                <input type="radio" name="experience"> Expert
+               </div>
+
+               <br> <br>
+                <div class="cv">
+                    <h3>Resume/CV<span class="im">*</span></h3>
+                    <input type="file" >
+                </div>
+                  
+                <div class="buttons">
+                    <input class="submit" type="submit" value="Submit">
+                    <input class="reset" type="reset" value="Clear form">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
